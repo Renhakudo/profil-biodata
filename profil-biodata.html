@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Saya</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    nav { background-color: #f2f2f2; padding: 10px; display: flex; justify-content: space-between; }
+    nav a { margin: 0 10px; text-decoration: none; color: #333; font-weight: bold; }
+
+    .hero { display: flex; justify-content: space-between; align-items: center; padding: 40px; background-color: #fff; }
+    .hero-text { width: 50%; }
+    .hero-img img { width: 100%; max-width: 400px; }
+
+    .about { text-align: center; padding: 40px; background-color: #fafafa; }
+    .about-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 20px; }
+    .box { width: 200px; height: 60px; background-color: #ddd; display: flex; align-items: center; justify-content: center; border-radius: 8px; }
+
+    .portfolio { padding: 40px; text-align: center; }
+    table { width: 100%; max-width: 800px; margin: auto; border-spacing: 20px; }
+    td { background-color: #f2f2f2; padding: 10px; border-radius: 8px; }
+    img { width: 100%; }
+  </style>
+</head>
+<body>
+
+  <!-- Section 1: Menu Navigasi -->
+  <nav>
+    <div><strong>Brand</strong></div>
+    <div>
+      <a href="#">Header</a>
+      <a href="#">Biodata</a>
+      <a href="#">Portfolio</a>
+    </div>
+  </nav>
+
+  <!-- Section 2: Hero -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Selamat Datang di Website Saya</h2>
+      <p>Ini adalah contoh header dengan dua kolom. Kolom ini berisi teks seperti ini. Pelajari Lebih Lanjut.</p>
+    </div>
+    <div class="hero-img">
+      <img src="https://via.placeholder.com/600x400" alt="Hero Image">
+    </div>
+  </section>
+
+  <!-- Section 3: Biodata -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>A brief introduction about myself</p>
+    <div class="about-grid">
+      <div class="box">Full Name</div>
+      <div class="box">Education</div>
+      <div class="box">Pekerjaan</div>
+      <div class="box">Contact</div>
+      <div class="box">Hobi</div>
+      <div class="box">Alamat</div>
+    </div>
+  </section>
+
+  <!-- Section 4: Portofolio -->
+  <section class="portfolio">
+    <h2>Portofolio</h2>
+    <table>
+      <tr>
+        <td>
+          <img src="https://via.placeholder.com/350x200" alt="Proyek 1">
+          <p><strong>Proyek 1</strong><br>Deskripsi proyek 1.</p>
+        </td>
+        <td>
+          <img src="https://via.placeholder.com/350x200" alt="Proyek 2">
+          <p><strong>Proyek 2</strong><br>Deskripsi proyek 2.</p>
+        </td>
+        <td>
+          <img src="https://via.placeholder.com/350x200" alt="Proyek 3">
+          <p><strong>Proyek 3</strong><br>Deskripsi proyek 3.</p>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+</body>
+</html>
